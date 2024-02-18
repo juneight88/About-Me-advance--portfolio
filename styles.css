@@ -1,0 +1,87 @@
+body,
+h1,
+h2,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  padding: 10px 20px;
+  display: block;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#about {
+  border: 2px solid black;
+}
+
+#hobbies {
+  color: #ecf0f1;
+  background-color: black;
+  padding: 15px;
+}
+
+#hobbies ul {
+  list-style-type: none;
+}
+
+#hobbies li {
+  background-color: gray;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+#contact {
+  text-align: center;
+  background-color: black;
+  color: #ecf0f1;
+  padding: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px;
+}
